@@ -31,65 +31,26 @@
             Console.WriteLine($"Результат вычитания: {Subtraction(a, b)}");
             Console.WriteLine($"Результат сложения: {Multiplication(a, b)}");
             Console.WriteLine($"Результат вычитания: {Division(a, b)}");
+            Console.ReadLine();
         }
         //Метод сложения.
         static public int Addition(int first, int last)
         {
-            while (true)
-            {
-                //Проверка на корретный ввод числа.
-                if (first == ' ' && last == ' ')
-                {
-                    Console.WriteLine("Поле не должно быть пустым!");
-                    continue;
-                }
-                break;
-            }
             return first + last;
         }
         //Метод вычитания.
         static public int Subtraction(int first, int last)
         {
-            while (true)
-            {
-                //Проверка на корретный ввод числа.
-                if (first == ' ' && last == ' ')
-                {
-                    Console.WriteLine("Поле не должно быть пустым!");
-                    continue;
-                }
-                break;
-            }
             return first - last;
         }
         //Метод умножения.
         static public int Multiplication(int first, int last)
         {
-            while (true)
-            {
-                //Проверка на корретный ввод числа.
-                if (first == ' ' && last == ' ')
-                {
-                    Console.WriteLine("Поле не должно быть пустым!");
-                    continue;
-                }
-                break;
-            }
             return first * last;
         }
         //Метод деления.
         static public int Division(int first, int last)
         {
-            while (true)
-            {
-                //Проверка на корретный ввод числа.
-                if (first == ' ' && last == ' ')
-                {
-                    Console.WriteLine("Поле не должно быть пустым!");
-                    continue;
-                }
-                break;
-            }
             return first / last;
         }
     }
