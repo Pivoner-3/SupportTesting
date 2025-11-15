@@ -7,7 +7,7 @@
             //Ввод двух целых чисел.
             Console.WriteLine("Напишите два целых числа: ");
             int a = int.Parse(Console.ReadLine());
-            while (true)
+            while (false)
             {
                 //Проверка на корректность введенного типа данных.
                 if (!int.TryParse(Console.ReadLine(), out a))
@@ -17,7 +17,7 @@
                 break;
             }
             int b = int.Parse(Console.ReadLine());
-            while (true)
+            while (false)
             {
                 //Проверка на корректность введенного типа данных.
                 if (!int.TryParse(Console.ReadLine(), out b))
@@ -29,8 +29,9 @@
             //Вывод всех базовых математических операций двух введенных чисел.
             Console.WriteLine($"Результат сложения: {Addition(a, b)}");
             Console.WriteLine($"Результат вычитания: {Subtraction(a, b)}");
-            Console.WriteLine($"Результат сложения: {Multiplication(a, b)}");
-            Console.WriteLine($"Результат вычитания: {Division(a, b)}");
+            Console.WriteLine($"Результат умножения: {Multiplication(a, b)}");
+            Console.WriteLine($"Результат деления: {Division(a, b)}");
+            
             Console.ReadLine();
         }
         //Метод сложения.
